@@ -1,0 +1,55 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    text-align: center;
+    flex-direction: row;
+}
+
+.login-card{
+    width: 20rem;
+    /* height: 25rem; */
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.bottom-card{
+    width: 20rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.carbg{
+    background: url('../assets/login.png');
+    background-size: cover;
+    height: 590px;
+    width: 441px;
+    position: relative;
+}
+
+.car{
+    height: 423px;
+    width: 241px;
+    position: absolute;
+    top: 25px;
+    left: 147px;
+}
+
+@media only screen and (max-width:500px) {
+    .login-card{
+        width: 100%;
+    }
+    .bottom-card{
+        width: 100%;
+    }
+    .carbg{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .carbg{
+        display: none;
+    }
+}
