@@ -31,7 +31,7 @@ function index() {
       
       try{
           setLoading(true)
-          setError('')
+          setError(' ')
           const user = await signup(email, password)
             const storageRef = ref(storage, `${user.id}/Profile`);
 
